@@ -1,0 +1,38 @@
+/* Aquí esta el estilo que abarca la calculadora, tamaños, su display.*/
+.calculator {
+  grid-gap: 10px;
+  padding: 10px;
+  display: grid;
+  background-color: aliceblue;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px black;
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Aquí esta el estilo de solo la pantalla, tamaños, colores, paddings.*/
+.screen {
+  font-size: 36px;
+  text-align: right;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  width: -webkit-fill-available;
+}
+
+/* Aquí estan los estilos de los botones por encima, cuantos se repiten por filas, su display */
+.button {
+  grid-gap: 10px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Aquí ya esté el estilo de los botones, su altura, tamaño de letra del contenido del botón y el contorno de la letra*/
+.button button{
+  height: 50px;
+  font-size: 20px;
+  font-weight: 300;
+}
